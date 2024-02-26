@@ -1,0 +1,12 @@
+node_modules
+components.d.ts
+dist/
+
+# Logs
+logs/
+*.log
+
+# Editor directories and files
+.idea
+.DS_Store
+.history
