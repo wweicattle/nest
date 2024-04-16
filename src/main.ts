@@ -15,7 +15,7 @@ async function bootstrap() {
     .build();
   const document = SwaggerModule.createDocument(app, config);
   SwaggerModule.setup('docs', app, document);
-  app.useGlobalInterceptors(new TestInterceptor(new Reflector()));
+  // app.useGlobalInterceptors(new TestInterceptor(new Reflector()));
   app.useGlobalPipes(new ValidationPipe());
   await app.listen(3000);
 }

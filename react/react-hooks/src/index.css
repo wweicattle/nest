@@ -1,0 +1,25 @@
+body{
+  margin: 0;
+}
+
+.contain{
+  border:1px solid red;
+  /* width: 800px; */
+  /* height: 600px; */
+  /* margin: auto; */
+  overflow: hidden;
+  /* position: absolute; */
+  /* margin-left: 100px; */
+
+}
+.item{
+  /* border: 1px solid #008c8c;
+   width: 100px; */
+  /* height: 100px; */
+}
+.layout{
+  /* width: 1000px;
+  height: 600px; */
+  border: 5px solid #000;
+  overflow: auto;
+}
