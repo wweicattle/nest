@@ -108,7 +108,7 @@ const Example = memo(() => {
 type Props = {
   children: React.ReactNode;
 };
-export default React.FC(({ children }: Props) => {
+export default ({ children }: Props) => {
   // let [loading, setLoading] = useState(true);
   let [color, setColor] = useState('1');
   // const Footer = children.find((res) => {
@@ -227,4 +227,4 @@ export default React.FC(({ children }: Props) => {
       </div>
     </>
   );
-})
+};

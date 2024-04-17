@@ -8,6 +8,7 @@ import ReactDOM from 'react-dom/client';
 // import DateV from './components/data-v';
 import Three from './components/Three';
 import Line from './components/User-Line';
+import Hooks from "./components/hooks/useHookContain"
 
 import './index.css';
 const slotData = [
@@ -20,9 +21,10 @@ const slotData = [
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <>
     <div className="contain">
-      <Three>
+      <Hooks />
+      {/* <Three>
         <div slot="footer"><div>323</div></div>
-      </Three>
+      </Three> */}
     </div>
     {/* <App /> */}
     {/* <Table /> */}
